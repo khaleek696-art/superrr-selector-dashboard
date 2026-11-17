@@ -12,7 +12,7 @@ jobs:
     steps:
       - name: Ping Streamlit Cloud App
         run: |
-          URL="https://superrr-selector-dashboard.streamlit.app"
+          URL="https://superrr-selector-dashboard12.streamlit.app/"
           echo "Pinging $URL..."
           STATUS=$(curl -s -L -o /dev/null -w "%{http_code}" --max-time 30 "$URL" || true)
           echo "Response HTTP Status: $STATUS"
