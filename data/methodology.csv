@@ -1,0 +1,15 @@
+Parameter,Details
+Data period,2022 onwards
+Competitions,Indian Premier League (IPL) and T20 International (T20I)
+Primary pressure threshold,Top 25% within each format and innings
+Pressure index,Average of pre-delivery stage percentile and wickets-lost percentile
+Stage percentile,Percentile rank of legal balls elapsed before delivery
+Wickets percentile,Percentile rank of wickets lost before delivery
+Batter eligibility,"At least 100 pressure balls, 200 baseline balls and 10 matches"
+Batter scoring weights,"Strike rate 30%, improvement 20%, inverse dismissal rate 20%, runs 15%, consistency 15%"
+Bowler eligibility,"At least 100 pressure legal balls, 200 baseline legal balls and 10 matches"
+Bowler scoring weights,"Wicket rate 35%, improvement 20%, consistency 20%, wickets 15%, sample 10%"
+Format aggregation,Format-specific percentile scores aggregated using pressure exposure weights
+Sensitivity analysis,"Compared 20%, 25% and 30% thresholds; 25% reproduced the primary rankings"
+Bowling economy limitation,Excluded because reliable runs-conceded accounting was unavailable
+Pressure model limitation,"The proxy does not measure target difficulty, required run rate, win probability or actual match leverage"
